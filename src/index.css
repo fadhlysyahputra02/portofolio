@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-brand-black: #000000;
+  --color-brand-dark: #050505;
+  --color-brand-gray: #121212;
+  --color-accent-green: #00ff88;
+}
+
+/* Custom styles for tech-themed elements and smooth transitions */
+html {
+  scroll-behavior: smooth;
+  background-color: #000000;
+  color: #f3f4f6;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar to keep the techy aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+/* Interactive elements styles */
+.glassmorphism {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.terminal-glow {
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.05);
+}
+
+/* Custom cursor blink for terminal */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-start infinite;
+}
