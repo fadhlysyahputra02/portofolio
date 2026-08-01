@@ -116,15 +116,35 @@ const Terminal = () => {
           ];
           break;
 
+        case "experience":
+        case "career":
+        case "exp":
+          response = [
+            "CAREER & EDUCATION TRACK:",
+            "  [ACTIVE]     PT. Textilindo — IT Staff / Server & Infrastructure (Sept 2025 – Sekarang)",
+            "               └─ Administrasi server Linux/Windows, ERPNext, Docker, & Jaringan.",
+            "",
+            "  [COMPLETED]  CV. Natusi — Mobile Developer Intern (Juli 2024 – Des 2024)",
+            "               └─ Development aplikasi mobile Flutter & REST API backend.",
+            "",
+            "  [GRADUATED]  Universitas Muhammadiyah Malang — S1 Teknik Informatika (2021 – 2025)",
+            "               └─ Fokus Software Engineering & IT Infrastructure.",
+          ];
+          break;
+
         case "help":
           response = [
-            "COMMAND CENTER CLI — AVAILABLE COMMANDS:",
-            "  whoami       - Tampilkan identitas & bio profesional",
+            "COMMAND CENTER CLI — DAFTAR PERINTAH TERSEDIA:",
+            "──────────────────────────────────────────────────────────────",
+            "  whoami       - Tampilkan bio & latar belakang profesional",
+            "  experience   - Tampilkan riwayat karier & pendidikan",
             "  projects     - List semua proyek aplikasi & infrastruktur",
-            "  techstack    - Tampilkan keahlian teknis lengkap",
-            "  contact      - Tampilkan info kontak & profil",
-            "  clear        - Bersihkan layar terminal",
-            "  secret       - Run core system diagnostic",
+            "  techstack    - Tampilkan keahlian teknis & ekosistem tools",
+            "  contact      - Tampilkan info WhatsApp, LinkedIn, & Email",
+            "  clear        - Bersihkan konsol layar terminal",
+            "  secret       - Jalankan diagnosa core sistem",
+            "──────────────────────────────────────────────────────────────",
+            "  [Tip]: Ketik nama perintah di atas lalu tekan Enter.",
           ];
           break;
 

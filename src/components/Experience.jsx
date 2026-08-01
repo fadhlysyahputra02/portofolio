@@ -35,7 +35,7 @@ const experiences = [
     period: "2021 – 2025",
     description:
       "Fokus pada pengembangan perangkat lunak, arsitektur sistem terdistribusi, dan arsitektur infrastruktur IT.",
-    tags: ["Software Engineering", "Computer Networks", "Database Systems", "Cloud Computing"],
+    tags: ["Software Engineering", "Database Systems"],
     icon: <GraduationCap className="text-blue-400" size={18} />,
   },
 ];
@@ -129,10 +129,9 @@ const Experience = () => {
                 className={`
                   backdrop-blur-xl bg-white/[0.02] border rounded-3xl p-6 sm:p-8
                   transition-all duration-500 hover:shadow-[0_0_30px_rgba(45,212,191,0.15)]
-                  ${
-                    exp.isActive
-                      ? "border-emerald-500/40 shadow-[0_0_20px_rgba(52,211,153,0.1)] hover:border-emerald-400"
-                      : "border-white/10 hover:border-teal-500/40"
+                  ${exp.isActive
+                    ? "border-emerald-500/40 shadow-[0_0_20px_rgba(52,211,153,0.1)] hover:border-emerald-400"
+                    : "border-white/10 hover:border-teal-500/40"
                   }
                 `}
               >
@@ -140,9 +139,8 @@ const Experience = () => {
                 <div className="flex flex-wrap items-center justify-between gap-3 mb-4 font-mono text-xs">
                   <div className="flex items-center gap-2">
                     <span
-                      className={`font-semibold tracking-wider ${
-                        exp.isActive ? "text-emerald-400" : "text-teal-400"
-                      }`}
+                      className={`font-semibold tracking-wider ${exp.isActive ? "text-emerald-400" : "text-teal-400"
+                        }`}
                     >
                       {exp.statusText}
                     </span>
