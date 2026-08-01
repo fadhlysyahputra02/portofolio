@@ -3,6 +3,7 @@ import InteractiveBackground from "./components/InteractiveBackground";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
+import Experience from "./components/Experience";
 import Terminal from "./components/Terminal";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
         <Hero />
         <Skills />
         <Portfolio />
+        <Experience />
         <Terminal />
         <Contact />
       </main>

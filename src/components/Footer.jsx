@@ -45,6 +45,7 @@ const Footer = () => {
     { name: "Beranda", id: "home" },
     { name: "Keahlian", id: "skills" },
     { name: "Portofolio", id: "portfolio" },
+    { name: "Karier", id: "experience" },
     { name: "Terminal", id: "terminal" },
     { name: "Kontak", id: "contact" },
   ];
