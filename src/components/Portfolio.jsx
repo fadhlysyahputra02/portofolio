@@ -98,7 +98,7 @@ const Portfolio = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <section id="portfolio" className="relative min-h-screen scroll-mt-20 pt-28 pb-20 px-4 sm:px-6 flex flex-col justify-start bg-black">
+    <section id="portfolio" className="relative min-h-screen scroll-mt-20 pt-28 pb-20 px-4 sm:px-6 flex flex-col justify-start bg-transparent">
       <div className="max-w-6xl mx-auto w-full z-10">
 
         {/* Section Header */}

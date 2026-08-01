@@ -110,7 +110,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="relative min-h-screen scroll-mt-20 pt-28 pb-20 px-4 flex flex-col justify-start bg-black">
+    <section id="contact" className="relative min-h-screen scroll-mt-20 pt-28 pb-20 px-4 flex flex-col justify-start bg-transparent">
       <div className="max-w-6xl mx-auto w-full z-10">
 
         {/* Section Header */}

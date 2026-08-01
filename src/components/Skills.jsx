@@ -43,7 +43,7 @@ const cardVariants = {
 
 const Skills = () => {
   return (
-    <section id="skills" className="relative min-h-screen scroll-mt-20 pt-28 pb-20 px-6 flex flex-col justify-start bg-black">
+    <section id="skills" className="relative min-h-screen scroll-mt-20 pt-28 pb-20 px-6 flex flex-col justify-start bg-transparent">
       <div className="max-w-6xl mx-auto w-full z-10">
 
         {/* Section Header */}
