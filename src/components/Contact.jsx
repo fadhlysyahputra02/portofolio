@@ -207,7 +207,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="Bayu Pamungkas"
+                  placeholder="Nama Kamu"
                   className="w-full bg-brand-gray border border-white/5 focus:border-accent-green/50 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 outline-none transition-all"
                 />
               </div>
@@ -223,7 +223,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="bayupamungkas@gmail.com"
+                  placeholder="Nama_Kamu@gmail.com"
                   className="w-full bg-brand-gray border border-white/5 focus:border-accent-green/50 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 outline-none transition-all"
                 />
               </div>
