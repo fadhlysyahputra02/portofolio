@@ -67,7 +67,7 @@ const projects = [
     title: "School Management System (Mobile App)",
     category: "Mobile App",
     categoryIcon: <Smartphone size={12} />,
-    description: "Aplikasi mobile untuk siswa dan wali murid dalam memantau absensi harian, jadwal pelajaran, pengumuman, dan tagihan SPP. Dibangun dengan Flutter dan Firebase sebagai backend penuh termasuk notifikasi push via FCM.",
+    description: "Aplikasi mobile berbasis Flutter dan Firebase untuk guru, siswa, dan wali murid SMAN 1 Malang. Fitur mencakup QR ID Card digital, portal wali kelas, kelas mengajar, jadwal mata pelajaran, menu manajemen akademis, ujian semester, hingga fitur chat guru.",
     images: ["/school_mobile_1.png", "/school_mobile_2.png", "/school_mobile_3.png"],
     tags: ["Flutter", "Firebase Firestore", "Firebase Auth", "FCM"],
     badgeStyle: "border-indigo-500/30 text-indigo-300 bg-indigo-500/10",
