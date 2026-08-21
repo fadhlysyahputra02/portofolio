@@ -223,28 +223,6 @@ const Portfolio = () => {
                   ))}
                 </div>
 
-                {/* Project Links */}
-                <div className="flex items-center justify-between font-mono text-xs pt-4 border-t border-white/10 mt-auto">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-1.5 text-gray-400 hover:text-white transition-colors cursor-pointer"
-                  >
-                    <GithubIcon size={14} />
-                    Source Code
-                  </a>
-
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-1.5 text-gray-400 hover:text-teal-400 transition-colors cursor-pointer"
-                  >
-                    Live Demo
-                    <ExternalLink size={14} />
-                  </a>
-                </div>
               </div>
             </motion.div>
           ))}
