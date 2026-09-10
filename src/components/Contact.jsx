@@ -104,7 +104,7 @@ const Contact = () => {
     {
       icon: <Download className="text-teal-400" size={20} />,
       label: "Curriculum Vitae",
-      value: "Unduh CV (Google Drive)",
+      value: "Unduh CV",
       link: "https://drive.google.com/file/d/1X3CBExYZ6wmss9nwSPBgUbS_NWTkPwvU/view?usp=drive_link",
     },
     {
@@ -156,11 +156,11 @@ const Contact = () => {
                 const CardWrapper = info.link ? "a" : "div";
                 const wrapperProps = info.link
                   ? {
-                      href: info.link,
-                      target: "_blank",
-                      rel: "noreferrer",
-                      className: "cursor-pointer block",
-                    }
+                    href: info.link,
+                    target: "_blank",
+                    rel: "noreferrer",
+                    className: "cursor-pointer block",
+                  }
                   : {};
 
                 return (

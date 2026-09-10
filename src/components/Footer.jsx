@@ -61,18 +61,6 @@ const Footer = () => {
         {/* Bottom Row: Download CV & Copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 font-mono text-xs text-gray-500">
 
-          {/* Download CV Link */}
-          <div className="flex items-center gap-4">
-            <a
-              href="https://drive.google.com/file/d/1X3CBExYZ6wmss9nwSPBgUbS_NWTkPwvU/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-              className="group flex items-center gap-2.5 px-4 py-2 rounded-xl border border-teal-500/30 bg-teal-500/10 hover:bg-teal-500/20 hover:border-teal-400 text-teal-300 hover:text-white transition-all duration-300 cursor-pointer shadow-lg shadow-teal-500/5 hover:shadow-teal-500/15"
-            >
-              <Download size={15} className="text-teal-400 group-hover:translate-y-0.5 transition-transform duration-300" />
-              <span className="font-semibold text-xs tracking-wide">Unduh CV</span>
-            </a>
-          </div>
 
           {/* Copyright */}
           <p className="text-center sm:text-right">
