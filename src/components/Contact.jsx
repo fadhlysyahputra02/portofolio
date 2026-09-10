@@ -57,9 +57,8 @@ const Contact = () => {
     {
       icon: <Download className="text-teal-400" size={20} />,
       label: "Curriculum Vitae",
-      value: "Unduh CV Saya (PDF)",
-      link: "/CV_Muhammad_Fadhly_Syahputra.pdf",
-      download: true,
+      value: "Unduh CV (Google Drive)",
+      link: "https://drive.google.com/file/d/1X3CBExYZ6wmss9nwSPBgUbS_NWTkPwvU/view?usp=drive_link",
     },
     {
       icon: <MapPin className="text-teal-400" size={20} />,
@@ -111,8 +110,7 @@ const Contact = () => {
                 const wrapperProps = info.link
                   ? {
                       href: info.link,
-                      target: info.download ? "_self" : "_blank",
-                      download: info.download ? "CV_Muhammad_Fadhly_Syahputra.pdf" : undefined,
+                      target: "_blank",
                       rel: "noreferrer",
                       className: "cursor-pointer block",
                     }

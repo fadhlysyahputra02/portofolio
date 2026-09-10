@@ -64,8 +64,7 @@ const Footer = () => {
           {/* Download CV Link */}
           <div className="flex items-center gap-4">
             <a
-              href="/CV_Muhammad_Fadhly_Syahputra.pdf"
-              download="CV_Muhammad_Fadhly_Syahputra.pdf"
+              href="https://drive.google.com/file/d/1X3CBExYZ6wmss9nwSPBgUbS_NWTkPwvU/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
               className="group flex items-center gap-2.5 px-4 py-2 rounded-xl border border-teal-500/30 bg-teal-500/10 hover:bg-teal-500/20 hover:border-teal-400 text-teal-300 hover:text-white transition-all duration-300 cursor-pointer shadow-lg shadow-teal-500/5 hover:shadow-teal-500/15"

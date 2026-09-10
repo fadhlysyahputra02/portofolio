@@ -107,12 +107,12 @@ const Terminal = () => {
           break;
 
         case "contact":
+        case "cv":
           response = [
             "CONTACT & CONNECTIVITY:",
-            "  LinkedIn:  https://www.linkedin.com/in/fadhly-syahputra",
-            "  GitHub:    https://github.com/fadhlysyahputra02",
             "  Email:     fadhly.syahputra@gmail.com",
             "  Phone:     +62 857-0404-9215",
+            "  Unduh CV:  https://drive.google.com/file/d/1X3CBExYZ6wmss9nwSPBgUbS_NWTkPwvU/view?usp=drive_link",
           ];
           break;
 
@@ -140,7 +140,7 @@ const Terminal = () => {
             "  experience   - Tampilkan riwayat karier & pendidikan",
             "  projects     - List semua proyek aplikasi & infrastruktur",
             "  techstack    - Tampilkan keahlian teknis & ekosistem tools",
-            "  contact      - Tampilkan info WhatsApp, LinkedIn, & Email",
+            "  contact / cv - Tampilkan info kontak & link Unduh CV",
             "  clear        - Bersihkan konsol layar terminal",
             "  secret       - Jalankan diagnosa core sistem",
             "──────────────────────────────────────────────────────────────",
