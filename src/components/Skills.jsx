@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Laptop, Server, Layers, CheckCircle2 } from "lucide-react";
+import { Laptop, Server, Layers, CheckCircle2, Sparkles } from "lucide-react";
 
 const skillCategories = [
   {
@@ -26,6 +26,22 @@ const skillCategories = [
     glowColor: "hover:shadow-[0_0_35px_rgba(59,130,246,0.25)] hover:border-blue-400/50",
     badgeColor: "border-blue-500/20 text-blue-300 bg-blue-500/5 hover:border-blue-400/40 hover:text-blue-200",
   },
+  {
+    title: "Tools & AI Ecosystem",
+    icon: <Sparkles className="text-purple-400" size={28} />,
+    description: "Melek perkembangan teknologi dengan memanfaatkan ekosistem Generative AI & modern tools untuk efisiensi dan akselerasi workflow.",
+    skills: [
+      "Postman",
+      "Figma",
+      "Git & GitHub",
+      "VS Code",
+      "AI Coding (Cursor/Copilot)",
+      "Prompt Engineering & LLMs",
+    ],
+    accentColor: "from-purple-500/20 to-pink-500/20",
+    glowColor: "hover:shadow-[0_0_35px_rgba(168,85,247,0.25)] hover:border-purple-400/50",
+    badgeColor: "border-purple-500/20 text-purple-300 bg-purple-500/5 hover:border-purple-400/40 hover:text-purple-200",
+  },
 ];
 
 const cardVariants = {
@@ -44,7 +60,7 @@ const cardVariants = {
 const Skills = () => {
   return (
     <section id="skills" className="relative min-h-screen scroll-mt-20 pt-28 pb-20 px-6 flex flex-col justify-start bg-transparent">
-      <div className="max-w-6xl mx-auto w-full z-10">
+      <div className="max-w-7xl mx-auto w-full z-10">
 
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -76,12 +92,12 @@ const Skills = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto font-light leading-relaxed"
           >
-            Kombinasi kemampuan pengembangan aplikasi (*Development*) dan keahlian pengelolaan infrastruktur (*DevOps*) untuk solusi end-to-end yang tangguh.
+            Kombinasi kemampuan pengembangan aplikasi (*Development*), keahlian infrastruktur (*DevOps*), serta pemanfaatan ekosistem AI modern untuk akselerasi solusi digital.
           </motion.p>
         </div>
 
-        {/* 2-Column Skill Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* 3-Column Skill Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, idx) => (
             <motion.div
               key={category.title}

@@ -43,7 +43,7 @@ const Hero = () => {
     }
   };
 
-  const roles = ["Application Developer", "DevOps Engineer", "Infrastructure Specialist"];
+  const roles = ["Application Developer", "DevOps Engineer", "AI-Driven Tech Explorer"];
   const typedText = useTypewriter(roles);
 
   const containerVariants = {
@@ -114,10 +114,11 @@ const Hero = () => {
           className="text-gray-400 text-sm sm:text-base md:text-lg max-w-2xl mb-12 leading-relaxed font-sans font-light"
         >
           Membangun aplikasi yang skalabel{" "}
-          <span className="text-teal-400 font-medium">(Apps)</span> dan memastikan
+          <span className="text-teal-400 font-medium">(Apps)</span>, memastikan
           infrastruktur yang handal{" "}
-          <span className="text-blue-400 font-medium">(DevOps)</span> untuk hasil{" "}
-          <span className="text-white font-medium italic">end-to-end</span> yang sempurna.
+          <span className="text-blue-400 font-medium">(DevOps)</span>, serta adaptif memanfaatkan ekosistem{" "}
+          <span className="text-purple-400 font-medium">Modern AI</span> untuk solusi{" "}
+          <span className="text-white font-medium italic">end-to-end</span>.
         </motion.p>
 
         {/* CTA Buttons */}

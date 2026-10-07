@@ -38,13 +38,13 @@ const Terminal = () => {
           response = [
             "USER IDENTITY:",
             "  Name:     Muhammad Fadhly Syahputra",
-            "  Role:     DevOps Engineer | Linux System Administrator | Programmer",
+            "  Role:     DevOps Engineer | Application Developer | AI-Driven Tech Explorer",
             "  Company:  PT. Textilindo — IT Staff / Server & Infrastructure",
-            "  Bio:      IT professional dengan pengalaman praktis dalam administrasi",
+            "  Bio:      IT professional dengan keahlian praktis dalam administrasi",
             "            server Linux, Docker & Docker Compose, Nginx reverse proxy,",
-            "            manajemen database, dan troubleshooting jaringan.",
-            "            Juga memiliki latar belakang kuat dalam pengembangan aplikasi",
-            "            mobile dan web untuk solusi end-to-end yang sempurna.",
+            "            troubleshooting jaringan, serta pengembangan web & mobile.",
+            "            Adaptif dan melek perkembangan Generative AI untuk mengakselerasi",
+            "            produktivitas serta menghadirkan solusi teknologi yang efisien.",
           ];
           break;
 
@@ -101,7 +101,11 @@ const Terminal = () => {
             "",
             "  [Development]",
             "    └─ Flutter, PHP (Laravel), Golang",
-            "    └─ JavaScript, TypeScript, REST API, Postman",
+            "    └─ JavaScript, TypeScript, REST API",
+            "",
+            "  [Tools & AI Ecosystem]",
+            "    └─ Postman, Figma, Git & GitHub, VS Code",
+            "    └─ AI-Assisted Dev (Cursor/Copilot), LLMs, Prompt Engineering",
             "─────────────────────────────────────────────────────",
           ];
           break;
